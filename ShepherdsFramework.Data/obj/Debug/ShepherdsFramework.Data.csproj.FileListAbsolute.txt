@@ -12,3 +12,5 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\b
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\Autofac.Integration.Mvc.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\Autofac.Integration.Mvc.xml
