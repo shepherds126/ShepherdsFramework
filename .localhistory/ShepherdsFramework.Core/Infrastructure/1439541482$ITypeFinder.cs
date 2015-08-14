@@ -18,14 +18,14 @@ namespace ShepherdsFramework.Core.Infrastructure
         /// <returns></returns>
         IList<Assembly> GetAssemblies();
         /// <summary>
-        /// 查找满足指定类型的的所有类型的集合
+        /// 
         /// </summary>
-        /// <param name="assignTypeFrom">制定类型</param>
-        /// <param name="onlyConcreteClasses">默认为实体类</param>
+        /// <param name="assignTypeFrom"></param>
+        /// <param name="onlyConcreteClasses"></param>
         /// <returns></returns>
         IEnumerable<Type> FindClassesOfType(Type assignTypeFrom, bool onlyConcreteClasses = true);
         /// <summary>
-        /// 查找满足指定类型的的所有类型的集合
+        /// 
         /// </summary>
         /// <param name="assignTypeFrom"></param>
         /// <param name="assemblies"></param>
@@ -33,14 +33,14 @@ namespace ShepherdsFramework.Core.Infrastructure
         /// <returns></returns>
         IEnumerable<Type> FindClassesOfType(Type assignTypeFrom, IEnumerable<Assembly> assemblies, bool onlyConcreteClasses = true);
         /// <summary>
-        /// 查找满足指定类型的的所有类型的集合
+        /// 
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="onlyConcreteClasses"></param>
         /// <returns></returns>
         IEnumerable<Type> FindClassesOfType<T>(bool onlyConcreteClasses = true);
         /// <summary>
-        /// 查找满足指定类型的的所有类型的集合
+        /// 
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="assemblies"></param>
