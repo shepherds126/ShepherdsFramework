@@ -1,0 +1,7 @@
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\bin\Debug\ShepherdsFramework.Model.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\bin\Debug\ShepherdsFramework.Model.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\bin\Debug\ShepherdsFramework.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\bin\Debug\ShepherdsFramework.Core.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\obj\Debug\ShepherdsFramework.Model.csprojResolveAssemblyReference.cache
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\obj\Debug\ShepherdsFramework.Model.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Model\obj\Debug\ShepherdsFramework.Model.pdb

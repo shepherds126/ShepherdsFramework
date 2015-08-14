@@ -1,0 +1,14 @@
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\ShepherdsFramework.Data.dll.config
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\ShepherdsFramework.Data.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\ShepherdsFramework.Data.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\EntityFramework.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\ShepherdsFramework.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\Autofac.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\ShepherdsFramework.Core.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\EntityFramework.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\Autofac.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.csprojResolveAssemblyReference.cache
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.pdb
