@@ -31,9 +31,8 @@ namespace ShepherdsFramework.Framework
            //数据层注入
 
            var configstrategy = new ConfigStrategy();
-           var RDBSConfigInfo = configstrategy.GetRDBSConfigInfo();
            builder.Register<IDbContext>(
-               c => new ShepherdsFrameworkDbContext(RDBSConfigInfo.RDBSConnectionString))
+               c => new ShepherdsFrameworkDbContext(configstrategy.GetRDBSConfigInfo().RDBSConnectionString))
                .InstancePerLifetimeScope();
            //泛型注入
            builder.RegisterGeneric(typeof(EFRepository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
