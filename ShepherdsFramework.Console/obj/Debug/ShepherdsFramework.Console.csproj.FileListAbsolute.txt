@@ -1,5 +1,4 @@
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\ShepherdsFramework.Console.exe
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\ShepherdsFramework.Console.pdb
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.exe
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.pdb

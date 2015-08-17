@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ShepherdsFramework.Core;
-using ShepherdsFramework.Core.Domain;
+
+using ShepherdsFramework.Core.Domain.Customer;
 using ShepherdsFramework.Data;
 
 

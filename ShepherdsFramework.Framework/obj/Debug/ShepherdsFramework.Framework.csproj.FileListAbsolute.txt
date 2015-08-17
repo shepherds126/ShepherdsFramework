@@ -1,3 +1,4 @@
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Framework.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Framework.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\Autofac.dll
@@ -7,6 +8,7 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framew
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Core.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Data.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Service.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\System.Web.Mvc.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Core.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Data.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Service.pdb
@@ -15,6 +17,7 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framew
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\EntityFramework.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\FluentValidation.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\FluentValidation.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\System.Web.Mvc.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\da\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\de\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\es\FluentValidation.resources.dll
@@ -29,9 +32,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framew
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ru\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\sv\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\tr\FluentValidation.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.csprojResolveAssemblyReference.cache
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.pdb
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\System.Web.Mvc.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\System.Web.Mvc.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll

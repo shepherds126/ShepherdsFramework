@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ShepherdsFramework.Core;
-using ShepherdsFramework.Core.Domain;
+
+using ShepherdsFramework.Core.Domain.Customer;
 
 
 namespace ShepherdsFramework.Service.Customers

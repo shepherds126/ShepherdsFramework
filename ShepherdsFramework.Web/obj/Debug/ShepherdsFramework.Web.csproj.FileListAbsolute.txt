@@ -1,3 +1,4 @@
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Web.dll.config
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Web.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Web.pdb
@@ -13,6 +14,8 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Core.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Framework.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Service.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Helpers.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Mvc.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Optimization.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\WebGrease.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Data.dll
@@ -29,6 +32,8 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\MiniProfiler.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\MiniProfiler.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Newtonsoft.Json.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Helpers.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Mvc.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Optimization.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ShepherdsFramework.Data.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\da\FluentValidation.resources.dll
@@ -45,12 +50,7 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ru\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\sv\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\tr\FluentValidation.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.csprojResolveAssemblyReference.cache
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.pdb
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Mvc.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Mvc.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Helpers.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Helpers.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
