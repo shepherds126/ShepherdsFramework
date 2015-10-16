@@ -33,5 +33,13 @@ namespace ShepherdsFramework.Core.Domain.Customer
         /// 用户手机
         /// </summary>
         public string Phone { get; set; }
+        /// <summary>
+        /// 是否已激活
+        /// </summary>
+        public bool Actived { get; set; }
+        /// <summary>
+        /// 是否被封
+        /// </summary>
+        public bool Baned { get; set; }
     }
 }

@@ -19,7 +19,13 @@ namespace ShepherdsFramework.Service.Customers
         /// <param name="pageSize"></param>
         /// <returns></returns>
         IPageList<Customer> GetAllCustomers(bool isDelete = false,int pageIndex = 0,int pageSize = int.MaxValue);
-
+        /// <summary>
+        /// 验证用户登录
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        CustomerLoginResult ValidateCustomer(string username, string password);
 
     }
 }

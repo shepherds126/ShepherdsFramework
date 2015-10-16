@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ShepherdsFramework.Core;
 
 using ShepherdsFramework.Core.Domain.Customer;
+using ShepherdsFramework.Core.Tool;
 using ShepherdsFramework.Data;
 
 
@@ -47,6 +48,16 @@ namespace ShepherdsFramework.Service.Customers
         {
             if (customerId == 0) return null;
             return _customerRepository.GetById(customerId);
+        }
+        /// <summary>
+        /// 验证用户登录
+        /// </summary>
+        /// <param name="username">账户名</param>
+        /// <param name="password">密码</param>
+        /// <returns></returns>
+        public virtual CustomerLoginResult ValidateCustomer(string username, string password)
+        {
+            if(ValidateHelper.IsMobile(username))
         }
 
 
