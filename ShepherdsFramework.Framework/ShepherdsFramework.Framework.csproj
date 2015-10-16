@@ -47,7 +47,10 @@
       <HintPath>..\packages\FluentValidation.5.6.2.0\lib\Net45\FluentValidation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
@@ -60,7 +63,30 @@
   <ItemGroup>
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="DependencyRegistrar.cs" />
+    <Compile Include="Handlers\CaptchaHttpHandler.cs" />
+    <Compile Include="MVC\Attribute\CaptchaAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Captcha\CaptchaCharacterSet.cs" />
+    <Compile Include="Utilities\Captcha\CaptchaSetting.cs" />
+    <Compile Include="Utilities\Captcha\CaptchaUtility.cs" />
+    <Compile Include="Utilities\Captcha\DefaultCaptchaManager.cs" />
+    <Compile Include="Utilities\Captcha\ICaptchaManager.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Configuration\VerificationCodeSection.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Enum\VerificationCodePersistenceMode.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\ImageModel\BackgroundVerificationCodeImage.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\ImageModel\LineNoiseVerificationCodeImage.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\ImageModel\PartitionedVerificationCodeImage.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\ImageModel\VerificationCodeImage.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\DefaultProviders\BasicEnglishVerificationCodeTextProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\DefaultProviders\CrosshatchVerificationCodeFilterProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\DefaultProviders\LineNoiseVerificationCodeImageProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\PartitionedVerificationCodeImageProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\VerificationCodeFilterProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\VerificationCodeImageProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Provider\VerificationCodeTextProvider.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Utility\VerificationCodeProviderHelper.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\Utility\VerificationCodeRandomString.cs" />
+    <Compile Include="Utilities\Captcha\VerificationCode\VerificationCodeManager.cs" />
     <Compile Include="Validator\BaseValidator.cs" />
     <Compile Include="WebWorkContext.cs" />
   </ItemGroup>
@@ -79,11 +105,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

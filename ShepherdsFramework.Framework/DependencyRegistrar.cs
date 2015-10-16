@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using Autofac;
 using Autofac.Integration.Mvc;
 using ShepherdsFramework.Core;
+using ShepherdsFramework.Core.Caching;
 using ShepherdsFramework.Core.DependencyManagement;
 using ShepherdsFramework.Core.Infrastructure;
 using ShepherdsFramework.Data;
+using ShepherdsFramework.Framework.Utilities.Captcha;
 using ShepherdsFramework.Service.Customers;
 
 namespace ShepherdsFramework.Framework
@@ -24,6 +26,12 @@ namespace ShepherdsFramework.Framework
            builder.RegisterType<WebWorkContext>().As<IWorkContext>().InstancePerLifetimeScope();
            //bll 注入
            builder.RegisterType<CustomerService>().As<ICustomersService>().InstancePerLifetimeScope();
+           //验证码管理器
+           builder.RegisterType<DefaultCaptchaManager>().As<ICaptchaManager>().SingleInstance();
+           //缓存注册
+           builder.Register(c => new DefaultCacheService(new RuntimeMemoryCache(), 1.0f))
+               .As<ICacheService>()
+               .SingleInstance();
 
            //所有的controllers 注入
            builder.RegisterControllers(typeFinder.GetAssemblies().ToArray());

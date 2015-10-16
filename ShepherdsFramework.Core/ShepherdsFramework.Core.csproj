@@ -39,9 +39,14 @@
     <Reference Include="Autofac.Integration.Mvc">
       <HintPath>..\packages\Autofac.Mvc4.3.1.0\lib\net40\Autofac.Integration.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Enyim.Caching, Version=2.13.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnyimMemcached.2.13\lib\net35\Enyim.Caching.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
@@ -52,12 +57,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Caching\CacheSettingAttribute.cs" />
+    <Compile Include="Caching\CacheVersionType.cs" />
+    <Compile Include="Caching\CachingExpirationType.cs" />
+    <Compile Include="Caching\DefaultCacheService.cs" />
+    <Compile Include="Caching\EntityCacheExpirationPolicies.cs" />
+    <Compile Include="Caching\ICache.cs" />
+    <Compile Include="Caching\ICacheService.cs" />
+    <Compile Include="Caching\IListCacheSetting.cs" />
+    <Compile Include="Caching\MemcachedCache.cs" />
+    <Compile Include="Caching\RealTimeCacheHelper.cs" />
+    <Compile Include="Caching\RuntimeMemoryCache.cs" />
+    <Compile Include="CodeFormat\CLikeFormat.cs" />
+    <Compile Include="CodeFormat\CodeFormat.cs" />
+    <Compile Include="CodeFormat\CodeFormatHelper.cs" />
+    <Compile Include="CodeFormat\CSharpFormat.cs" />
+    <Compile Include="CodeFormat\HighlightOptions.cs" />
+    <Compile Include="CodeFormat\HtmlFormat.cs" />
+    <Compile Include="CodeFormat\JavaScriptFormat.cs" />
+    <Compile Include="CodeFormat\MshFormat.cs" />
+    <Compile Include="CodeFormat\SourceFormat.cs" />
+    <Compile Include="CodeFormat\TsqlFormat.cs" />
+    <Compile Include="CodeFormat\VisualBasicFormat.cs" />
     <Compile Include="Config\ConfigStrategy.cs" />
     <Compile Include="Config\IConfig.cs" />
     <Compile Include="Config\IConfigStrategy.cs" />
+    <Compile Include="Config\MemcacheSessionConfig.cs" />
     <Compile Include="Config\RDBSConfigInfo.cs" />
     <Compile Include="Config\ShepherdsFrameworkConfig.cs" />
     <Compile Include="Data\IDataProvider.cs" />
+    <Compile Include="DependencyManagement\ContainerManager.cs" />
     <Compile Include="DependencyManagement\IDependencyRegistrar.cs" />
     <Compile Include="Domain\Customer\Customer.cs" />
     <Compile Include="Infrastructure\AppDomainTypeFinder.cs" />
@@ -76,7 +105,9 @@
     <Compile Include="Tool\XMLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
