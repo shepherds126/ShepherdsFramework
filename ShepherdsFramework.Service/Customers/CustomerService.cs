@@ -57,7 +57,22 @@ namespace ShepherdsFramework.Service.Customers
         /// <returns></returns>
         public virtual CustomerLoginResult ValidateCustomer(string username, string password)
         {
-            if(ValidateHelper.IsMobile(username))
+            Customer customer = null;
+            var query = _customerRepository.Table;
+            //手机号登录
+            if (ValidateHelper.IsMobile(username)) customer = query.FirstOrDefault(q => q.Phone == username);
+            //邮箱登录
+            else if (ValidateHelper.IsEmail(username)) customer = query.FirstOrDefault(q => q.Email == username);
+            if(customer == null) return CustomerLoginResult.UserNameOrPasswordError;
+            //密码不正确
+            if(!UserPasswordHelper.CheckPassword(password,customer.Password,(UserPasswordFormat)customer.PasswordFormat))
+                return CustomerLoginResult.UserNameOrPasswordError;
+            //未激活
+            if(!customer.Actived) return CustomerLoginResult.NotActivated;
+            //禁止
+            if(customer.Baned) return CustomerLoginResult.Banned;
+
+            return CustomerLoginResult.Success;
         }
 
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ShepherdsFramework.Core;
+using ShepherdsFramework.Core.Domain.Customer;
 using ShepherdsFramework.Framework;
 using ShepherdsFramework.Framework.Model;
 using ShepherdsFramework.Framework.MVC.Attribute;
@@ -44,11 +45,29 @@ namespace ShepherdsFramework.Web.Controllers
         [HttpPost]
         public ActionResult Login(LoginModel model)
         {
+            Customer customer = null;
             if (!ModelState.IsValid)
             {
                 model.Password = "";
                 return View(model);
             }
+            CustomerLoginResult customerLoginResult = _customersService.ValidateCustomer(model.UserName,model.Password);
+            if (customerLoginResult == CustomerLoginResult.UserNameOrPasswordError)
+            {
+                model.Password = string.Empty;
+                return View(model);
+            }
+            else
+            {
+                
+            }
+
+            if (customerLoginResult == CustomerLoginResult.Success ||
+                customerLoginResult == CustomerLoginResult.NotActivated)
+            {
+
+            }
+
             return View();
         }
 

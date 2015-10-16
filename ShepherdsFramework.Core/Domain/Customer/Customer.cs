@@ -41,5 +41,9 @@ namespace ShepherdsFramework.Core.Domain.Customer
         /// 是否被封
         /// </summary>
         public bool Baned { get; set; }
+        /// <summary>
+        /// 密码的存储格式
+        /// </summary>
+        public int PasswordFormat { get; set; }
     }
 }
