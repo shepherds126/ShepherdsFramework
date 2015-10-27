@@ -149,7 +149,7 @@ namespace ShepherdsFramework.Core.Caching
         /// 
         /// </summary>
         /// <param name="entity">实体</param>
-        public void IncreaseListCacheVersion(IEntity entity)
+        public void IncreaseListCacheVersion(BaseEntity entity)
         {
             if (this.PropertiesOfArea != null)
             {
@@ -227,12 +227,12 @@ namespace ShepherdsFramework.Core.Caching
         /// 标识为已删除
         /// 
         /// </summary>
-        public void MarkDeletion(IEntity entity)
+        public void MarkDeletion(BaseEntity entity)
         {
             ICacheService cacheService = ContainerManager.Resolve<ICacheService>();
             if (!this.EnableCache)
                 return;
-            cacheService.MarkDeletion(this.GetCacheKeyOfEntity(entity.EntityId), entity,
+            cacheService.MarkDeletion(this.GetCacheKeyOfEntity(entity.Id), entity,
                 CachingExpirationType.SingleObject);
         }
 

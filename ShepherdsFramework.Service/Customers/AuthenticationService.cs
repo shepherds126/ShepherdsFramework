@@ -23,14 +23,17 @@ namespace ShepherdsFramework.Service.Customers
         /// <param name="rememberPassword"></param>
         public virtual void SignIn(Customer customer, bool rememberPassword)
         {
-
+            FormsAuthentication.SetAuthCookie(customer.Username,rememberPassword);
+            _customer = GetAuthenticatedCustomer();
+            //if()
         }
         /// <summary>
         /// 注销
         /// </summary>
         public virtual void SignOut()
         {
-
+            _customer = GetAuthenticatedCustomer();
+            FormsAuthentication.SignOut();
         }
         /// <summary>
         /// 获取当前登录的用户

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers\AuthenticationService.cs" />
     <Compile Include="Customers\CustomerService.cs" />
+    <Compile Include="Customers\IAuthenticationService.cs" />
     <Compile Include="Customers\ICustomersService.cs" />
+    <Compile Include="Customers\UserPasswordHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

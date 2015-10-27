@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ShepherdsFramework.Core;
-
+using ShepherdsFramework.Core.DependencyManagement;
 using ShepherdsFramework.Core.Domain.Customer;
 using ShepherdsFramework.Service.Customers;
 
@@ -20,10 +20,12 @@ namespace ShepherdsFramework.Framework
         private Customer _customer;
 
         private readonly ICustomersService _customersService;
+        private readonly IAuthenticationService _authenticationService;
 
-        public WebWorkContext(ICustomersService customersService)
+        public WebWorkContext(ICustomersService customersService,IAuthenticationService authenticationService)
         {
             this._customersService = customersService;
+            this._authenticationService = authenticationService;
         }
 
 
@@ -34,8 +36,10 @@ namespace ShepherdsFramework.Framework
                 {
                     return _customer;
                 }
-
-                Customer customer = null;
+                
+                
+                IAuthenticationService authenticationService = ContainerManager.Resolve<IAuthenticationService>();
+                Customer customer = authenticationService.GetAuthenticatedCustomer();
                 if (customer == null || customer.IsDelete)
                 {
 

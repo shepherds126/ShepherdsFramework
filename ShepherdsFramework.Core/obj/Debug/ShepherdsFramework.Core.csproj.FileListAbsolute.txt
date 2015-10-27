@@ -24,3 +24,7 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\b
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\ShepherdsFramework.Core.dll.config
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.xml

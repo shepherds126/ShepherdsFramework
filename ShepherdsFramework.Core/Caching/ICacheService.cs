@@ -76,7 +76,7 @@ namespace ShepherdsFramework.Core.Caching
     /// 
     /// </summary>
     /// <param name="cacheKey">缓存项标识</param><param name="entity">缓存的实体</param><param name="cachingExpirationType">缓存期限类型</param>
-    void MarkDeletion(string cacheKey, IEntity entity, CachingExpirationType cachingExpirationType);
+    void MarkDeletion(string cacheKey, BaseEntity entity, CachingExpirationType cachingExpirationType);
 
     /// <summary>
     /// 清空缓存

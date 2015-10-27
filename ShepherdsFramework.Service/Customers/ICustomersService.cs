@@ -26,6 +26,14 @@ namespace ShepherdsFramework.Service.Customers
         /// <param name="password"></param>
         /// <returns></returns>
         CustomerLoginResult ValidateCustomer(string username, string password);
+        /// <summary>
+        /// 利用手机或邮箱获取用户
+        /// </summary>
+        /// <param name="phoneoremail"></param>
+        /// <returns></returns>
+        Customer GetCustomerByEmailOrPhone(string phoneoremail);
+
+
 
     }
 }

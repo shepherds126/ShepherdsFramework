@@ -47,6 +47,7 @@
       <HintPath>..\packages\FluentValidation.5.6.2.0\lib\Net45\FluentValidation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -64,7 +65,10 @@
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="DependencyRegistrar.cs" />
     <Compile Include="Handlers\CaptchaHttpHandler.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Model\SystemMessageModel.cs" />
     <Compile Include="MVC\Attribute\CaptchaAttribute.cs" />
+    <Compile Include="MVC\Html\HtmlHelperCaptchaExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Captcha\CaptchaCharacterSet.cs" />
     <Compile Include="Utilities\Captcha\CaptchaSetting.cs" />

@@ -26,6 +26,8 @@ namespace ShepherdsFramework.Framework
            builder.RegisterType<WebWorkContext>().As<IWorkContext>().InstancePerLifetimeScope();
            //bll 注入
            builder.RegisterType<CustomerService>().As<ICustomersService>().InstancePerLifetimeScope();
+           //用户身份认证
+           builder.RegisterType<AuthenticationService>().As<IAuthenticationService>().InstancePerHttpRequest();
            //验证码管理器
            builder.RegisterType<DefaultCaptchaManager>().As<ICaptchaManager>().SingleInstance();
            //缓存注册

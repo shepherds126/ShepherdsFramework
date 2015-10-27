@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ShepherdsFramework.Core
 {
-    public class ShepherdsFrameWorkException : Exception
+    public class ShepherdsFrameWorkException : System.Exception
     {
         public ShepherdsFrameWorkException()
         {

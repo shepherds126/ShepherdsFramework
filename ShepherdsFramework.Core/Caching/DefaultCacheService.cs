@@ -16,7 +16,13 @@ namespace ShepherdsFramework.Core.Caching
   [Serializable]
   public class DefaultCacheService : ICacheService
   {
+    /// <summary>
+    /// 本地缓存
+    /// </summary>
     private ICache localCache;
+    /// <summary>
+    /// 其他缓存
+    /// </summary>
     private ICache cache;
     private readonly Dictionary<CachingExpirationType, TimeSpan> cachingExpirationDictionary;
     private bool enableDistributedCache;
@@ -47,7 +53,7 @@ namespace ShepherdsFramework.Core.Caching
     /// 构造函数
     /// 
     /// </summary>
-    /// <param name="cache">缓存</param><param name="localCache">本机缓存</param><param name="cacheExpirationFactor">缓存过期时间因子</param><param name="enableDistributedCache">是否启用分布式缓存</param>
+    /// <param name="cache">其他缓存(如分布式缓存 memcached)</param><param name="localCache">本机缓存</param><param name="cacheExpirationFactor">缓存过期时间因子</param><param name="enableDistributedCache">是否启用分布式缓存</param>
     public DefaultCacheService(ICache cache, ICache localCache, float cacheExpirationFactor, bool enableDistributedCache)
     {
       this.cache = cache;
@@ -118,9 +124,9 @@ namespace ShepherdsFramework.Core.Caching
     /// 
     /// </summary>
     /// <param name="cacheKey">缓存项标识</param><param name="entity">缓存的实体</param><param name="cachingExpirationType">缓存期限类型</param>
-    public void MarkDeletion(string cacheKey, IEntity entity, CachingExpirationType cachingExpirationType)
+    public void MarkDeletion(string cacheKey, BaseEntity entity, CachingExpirationType cachingExpirationType)
     {
-      entity.IsDeletedInDatabase = true;
+      //entity.IsDeletedInDatabase = true;
       this.cache.MarkDeletion(cacheKey,  entity, this.cachingExpirationDictionary[cachingExpirationType]);
     }
 

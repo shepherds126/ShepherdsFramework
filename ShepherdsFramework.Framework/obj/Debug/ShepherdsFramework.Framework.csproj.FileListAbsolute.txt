@@ -50,3 +50,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framew
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\ShepherdsFramework.Framework.dll.config
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\Enyim.Caching.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\Enyim.Caching.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\Enyim.Caching.xml

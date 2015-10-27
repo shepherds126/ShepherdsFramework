@@ -50,13 +50,10 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\ru\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\sv\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\tr\FluentValidation.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\obj\Debug\ShepherdsFramework.Web.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.WebPages.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.WebPages.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Http.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Net.Http.Formatting.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.Razor.dll
@@ -69,6 +66,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\System.Web.WebPages.Deployment.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Http.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Razor.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.xml

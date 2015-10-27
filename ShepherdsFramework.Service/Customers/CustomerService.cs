@@ -74,6 +74,22 @@ namespace ShepherdsFramework.Service.Customers
 
             return CustomerLoginResult.Success;
         }
+        /// <summary>
+        /// 利用手机号或邮箱获取用户信息
+        /// </summary>
+        /// <param name="emailorphone">邮箱或手机号</param>
+        /// <returns></returns>
+        public virtual Customer GetCustomerByEmailOrPhone(string emailorphone)
+        {
+            var query = _customerRepository.Table;
+            if (ValidateHelper.IsMobile(emailorphone))
+                return query.FirstOrDefault(q => q.Phone == emailorphone);
+            else if (ValidateHelper.IsEmail(emailorphone)) return query.FirstOrDefault(q => q.Email == emailorphone);
+            return null;
+        }
+
+
+        
 
 
     }

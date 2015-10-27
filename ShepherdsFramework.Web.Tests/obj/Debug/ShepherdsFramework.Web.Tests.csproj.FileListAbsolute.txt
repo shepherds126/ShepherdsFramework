@@ -61,10 +61,8 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Enyim.Caching.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Enyim.Caching.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Enyim.Caching.xml
