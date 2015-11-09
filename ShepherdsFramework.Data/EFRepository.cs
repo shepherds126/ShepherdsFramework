@@ -6,6 +6,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using ShepherdsFramework.Core;
+using ShepherdsFramework.Core.DependencyManagement;
+using ShepherdsFramework.Core.Logging;
+using ShepherdsFramework.Core.Logging.SystemLog;
 
 namespace ShepherdsFramework.Data
 {
@@ -55,16 +58,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "添加数据库失败");
+                var fail = new Exception("添加数据库失败", exception);
                 throw fail;
 
             }
@@ -89,16 +86,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "添加数据库失败");
+                var fail = new Exception("添加数据库失败", exception);
                 throw fail;
             }
         }
@@ -115,16 +106,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "更新数据库失败");
+                var fail = new Exception("更新数据库失败", exception);
                 throw fail;
 
             }
@@ -145,16 +130,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "更新数据库失败");
+                var fail = new Exception("更新数据库失败", exception);
                 throw fail;
             }
         }
@@ -172,16 +151,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "删除数据库失败");
+                var fail = new Exception("删除数据库失败", exception);
                 throw fail;
 
             }
@@ -203,16 +176,10 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var msg = string.Empty;
-                foreach (var validationErrors in dbex.EntityValidationErrors)
-                {
-                    foreach (var validationError in validationErrors.ValidationErrors)
-                    {
-                        msg += string.Format("Property:{0} Error:{1}", validationError.PropertyName, validationError.ErrorMessage) + Environment.NewLine;
-                    }
-                }
-                Debug.Write(msg);
-                var fail = new Exception(msg, dbex);
+                var slog = ContainerManager.Resolve<ILogger>();
+                var exception = dbex.ThrowDbEntityValidationException();
+                slog.Debug(exception, "删除数据库失败");
+                var fail = new Exception("删除数据库失败", exception);
                 throw fail;
 
             }

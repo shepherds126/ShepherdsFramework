@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EFRepository.cs" />
+    <Compile Include="ExceptionExtension.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Mapping\Customer\CustomerMap.cs" />

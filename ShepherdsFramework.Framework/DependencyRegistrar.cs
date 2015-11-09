@@ -10,6 +10,8 @@ using ShepherdsFramework.Core;
 using ShepherdsFramework.Core.Caching;
 using ShepherdsFramework.Core.DependencyManagement;
 using ShepherdsFramework.Core.Infrastructure;
+using ShepherdsFramework.Core.Logging;
+using ShepherdsFramework.Core.Logging.SystemLog.Log4Net;
 using ShepherdsFramework.Data;
 using ShepherdsFramework.Framework.Utilities.Captcha;
 using ShepherdsFramework.Service.Customers;
@@ -37,6 +39,8 @@ namespace ShepherdsFramework.Framework
            //    .SingleInstance();
            //cachemanager注入
            var cache = CacheFactory.FromConfiguration<string>("myCache");
+           //日志注入
+           builder.RegisterType<Log4NetLogger>().As<ILogger>().InstancePerMatchingLifetimeScope();
            builder.RegisterInstance(cache);
            //所有的controllers 注入
            builder.RegisterControllers(typeFinder.GetAssemblies().ToArray());
