@@ -31,6 +31,13 @@ namespace ShepherdsFramework.Data
         public ShepherdsFrameworkDbContext(string connString) : base(connString)
         {
             this.Database.Log = Console.Write;
+            //
+            this.Configuration.AutoDetectChangesEnabled = false;
+            this.Configuration.LazyLoadingEnabled = false;
+            //调用SaveChange()时，是否验证Entity
+            this.Configuration.ValidateOnSaveEnabled = false;
+
+            this.Configuration.ProxyCreationEnabled = false;
         }
 
         /// <summary>

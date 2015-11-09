@@ -28,3 +28,5 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\b
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\log4net.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\log4net.xml

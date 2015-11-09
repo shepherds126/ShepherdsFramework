@@ -46,7 +46,7 @@ namespace ShepherdsFramework.Core
                 serializer.Serialize(fs, obj);
                 result = true;
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 throw ex;
             }
@@ -74,7 +74,7 @@ namespace ShepherdsFramework.Core
                 XmlSerializer serializer = new XmlSerializer(type);
                 return serializer.Deserialize(fs);
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 throw ex;
             }

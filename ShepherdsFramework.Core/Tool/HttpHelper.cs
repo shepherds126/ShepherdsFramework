@@ -40,7 +40,7 @@ namespace ShepherdsFramework.Core.Tool
                 //准备参数
                 SetRequest(item);
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 return new HttpResult() { Cookie = string.Empty, Header = null, Html = ex.Message, StatusDescription = "配置参数时出错：" + ex.Message };
             }
@@ -121,7 +121,7 @@ namespace ShepherdsFramework.Core.Tool
                     result.StatusDescription = response.StatusDescription;
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 result.Html = ex.Message;
             }

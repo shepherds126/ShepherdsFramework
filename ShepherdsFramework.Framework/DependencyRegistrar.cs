@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Integration.Mvc;
+using CacheManager.Core;
 using ShepherdsFramework.Core;
 using ShepherdsFramework.Core.Caching;
 using ShepherdsFramework.Core.DependencyManagement;
@@ -31,10 +32,12 @@ namespace ShepherdsFramework.Framework
            //验证码管理器
            builder.RegisterType<DefaultCaptchaManager>().As<ICaptchaManager>().SingleInstance();
            //缓存注册
-           builder.Register(c => new DefaultCacheService(new RuntimeMemoryCache(), 1.0f))
-               .As<ICacheService>()
-               .SingleInstance();
-
+           //builder.Register(c => new DefaultCacheService(new RuntimeMemoryCache(), 1.0f))
+           //    .As<ICacheService>()
+           //    .SingleInstance();
+           //cachemanager注入
+           var cache = CacheFactory.FromConfiguration<string>("myCache");
+           builder.RegisterInstance(cache);
            //所有的controllers 注入
            builder.RegisterControllers(typeFinder.GetAssemblies().ToArray());
 

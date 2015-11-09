@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Configuration;
+using CacheManager.Core;
 using ShepherdsFramework.Core.Caching;
 using ShepherdsFramework.Core.DependencyManagement;
 
@@ -21,7 +22,7 @@ namespace ShepherdsFramework.Framework.Utilities.Captcha
     public static class VerificationCodeManager
     {
 
-        private static ICacheService cacheService = ContainerManager.Resolve<ICacheService>();
+        private static ICacheManager<int> cacheService = ContainerManager.Resolve<ICacheManager<int>>();
         private static readonly AutoInputProtectionTextProviderCollection TextProviderCollection = new AutoInputProtectionTextProviderCollection();
         private static readonly AutoInputProtectionImageProviderCollection ImageProviderCollection = new AutoInputProtectionImageProviderCollection();
         private static readonly AutoInputProtectionFilterProviderCollection FilterProviderCollection = new AutoInputProtectionFilterProviderCollection();

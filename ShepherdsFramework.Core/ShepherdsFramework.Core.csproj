@@ -43,6 +43,9 @@
       <HintPath>..\packages\EnyimMemcached.2.13\lib\net35\Enyim.Caching.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -57,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Caching\CacheManager\CacheManagerFactoryAdapter.cs" />
     <Compile Include="Caching\CacheSettingAttribute.cs" />
     <Compile Include="Caching\CacheVersionType.cs" />
     <Compile Include="Caching\CachingExpirationType.cs" />
@@ -91,17 +95,26 @@
     <Compile Include="Domain\Customer\Customer.cs" />
     <Compile Include="Domain\Customer\CustomerLoginResult.cs" />
     <Compile Include="Domain\Customer\UserPasswordFormat.cs" />
+    <Compile Include="Domain\Logs\OperationLog.cs" />
+    <Compile Include="Domain\Logs\OperatorInfo.cs" />
+    <Compile Include="Email\Configuration\EmailSetting.cs" />
     <Compile Include="Exception\CommonExceptionDescriptor.cs" />
     <Compile Include="Exception\ExceptionDescriptor.cs" />
+    <Compile Include="Exception\ExceptionFacade.cs" />
     <Compile Include="Exception\ExceptionFormatResourceKey.cs" />
     <Compile Include="Exception\ExceptionMessageDescriptor.cs" />
+    <Compile Include="FileStore\ResouceType.cs" />
     <Compile Include="Infrastructure\AppDomainTypeFinder.cs" />
     <Compile Include="Infrastructure\InitDependencyContainer.cs" />
     <Compile Include="Infrastructure\ITypeFinder.cs" />
     <Compile Include="Infrastructure\WebAppDomainTypeFinder.cs" />
     <Compile Include="IPageList.cs" />
     <Compile Include="IWorkContext.cs" />
+    <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\LogLevel.cs" />
+    <Compile Include="Logging\SystemLog\Log4Net\Log4NetLogger.cs" />
+    <Compile Include="Logging\SystemLog\Log4Net\Log4NetLoggerFactoryAdapter.cs" />
+    <Compile Include="Logging\SystemLog\LoggerExtension.cs" />
     <Compile Include="PageList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShepherdsFrameWorkException.cs" />
@@ -118,6 +131,7 @@
     <Compile Include="Tool\SymmetricEncryptType.cs" />
     <Compile Include="Tool\ValidateHelper.cs" />
     <Compile Include="Tool\WebHelper.cs" />
+    <Compile Include="Tool\WebUtility.cs" />
     <Compile Include="Tool\XMLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -125,7 +139,11 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Environments\" />
+    <Folder Include="Events\" />
+    <Folder Include="Image\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -69,3 +69,13 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bi
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\Enyim.Caching.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\log4net.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\CacheManager.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\log4net.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\CacheManager.Core.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll

@@ -3,3 +3,7 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Consol
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.exe
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\obj\Debug\ShepherdsFramework.Console.csprojResolveAssemblyReference.cache
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\CacheManager.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\CacheManager.SystemRuntimeCaching.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\CacheManager.Core.xml
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Console\bin\Debug\CacheManager.SystemRuntimeCaching.xml
