@@ -58,7 +58,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "添加数据库失败");
                 var fail = new Exception("添加数据库失败", exception);
@@ -86,7 +86,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "添加数据库失败");
                 var fail = new Exception("添加数据库失败", exception);
@@ -106,7 +106,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "更新数据库失败");
                 var fail = new Exception("更新数据库失败", exception);
@@ -130,7 +130,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "更新数据库失败");
                 var fail = new Exception("更新数据库失败", exception);
@@ -151,7 +151,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "删除数据库失败");
                 var fail = new Exception("删除数据库失败", exception);
@@ -176,7 +176,7 @@ namespace ShepherdsFramework.Data
             }
             catch (DbEntityValidationException dbex)
             {
-                var slog = ContainerManager.Resolve<ILogger>();
+                var slog = LoggerFactory.GetLogger();
                 var exception = dbex.ThrowDbEntityValidationException();
                 slog.Debug(exception, "删除数据库失败");
                 var fail = new Exception("删除数据库失败", exception);
