@@ -16,7 +16,7 @@ namespace ShepherdsFramework.Core.Logging
         /// </summary>
         Debug,
         /// <summary>
-        /// 
+        /// 详情
         /// </summary>
         Information,
         /// <summary>
