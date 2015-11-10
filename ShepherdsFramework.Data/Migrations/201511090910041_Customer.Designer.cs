@@ -7,13 +7,13 @@ namespace ShepherdsFramework.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialMigration : IMigrationMetadata
+    public sealed partial class Customer : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Customer));
         
         string IMigrationMetadata.Id
         {
-            get { return "201508170242029_InitialMigration"; }
+            get { return "201511090910041_Customer"; }
         }
         
         string IMigrationMetadata.Source
