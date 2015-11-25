@@ -25,7 +25,7 @@ namespace ShepherdsFramework.Web
         protected void Application_Start()
         {
 
-            var cache = CacheFactory.FromConfiguration<object>("myCache", "cacheManager");
+
             InitDependencyContainer.InitContainer();
             AreaRegistration.RegisterAllAreas();
 

@@ -30,3 +30,5 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Servic
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Service\obj\Debug\ShepherdsFramework.Service.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Service\obj\Debug\ShepherdsFramework.Service.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Service\obj\Debug\ShepherdsFramework.Service.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Service\bin\Debug\CacheManager.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Service\bin\Debug\CacheManager.Core.xml

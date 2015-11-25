@@ -45,6 +45,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Autofac.WebApi2.3.4.0\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
     </Reference>
+    <Reference Include="CacheManager.Core">
+      <HintPath>..\packages\CacheManager.Core.0.6.0\lib\net45\CacheManager.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CacheManager.SystemRuntimeCaching">
+      <HintPath>..\packages\CacheManager.SystemRuntimeCaching.0.6.0\lib\net45\CacheManager.SystemRuntimeCaching.dll</HintPath>
+    </Reference>
     <Reference Include="Enyim.Caching, Version=2.13.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
       <HintPath>..\packages\EnyimMemcached.2.13\lib\net35\Enyim.Caching.dll</HintPath>
       <Private>True</Private>

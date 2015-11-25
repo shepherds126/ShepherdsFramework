@@ -5,7 +5,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Web.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Optimization.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Mvc.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Http.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Framework.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Core.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Service.dll
@@ -15,7 +14,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Razor.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.WebPages.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Autofac.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\CacheManager.Core.dll
@@ -28,7 +26,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Web.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Optimization.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Mvc.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Http.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Framework.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Core.pdb
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Service.pdb
@@ -39,8 +36,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.Razor.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Web.WebPages.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\Autofac.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\CacheManager.Core.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\ShepherdsFramework.Data.pdb
@@ -52,7 +47,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\EntityFramework.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\da\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\de\FluentValidation.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\es\FluentValidation.resources.dll
@@ -70,7 +64,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Te
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
-D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\obj\Debug\ShepherdsFramework.Web.Tests.csprojResolveAssemblyReference.cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Web.Tests\obj\Debug\ShepherdsFramework.Web.Tests.dll

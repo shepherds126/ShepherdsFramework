@@ -203,7 +203,7 @@
     <Content Include="Config\Log4net.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.config" />
+    <Content Include="Config\cachemanager.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

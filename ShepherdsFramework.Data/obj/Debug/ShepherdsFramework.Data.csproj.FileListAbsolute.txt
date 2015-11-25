@@ -32,3 +32,5 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\o
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.csproj.GenerateResource.Cache
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\obj\Debug\ShepherdsFramework.Data.pdb
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\CacheManager.Core.dll
+D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Data\bin\Debug\CacheManager.Core.xml

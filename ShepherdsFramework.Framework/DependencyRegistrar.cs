@@ -8,6 +8,7 @@ using Autofac.Integration.Mvc;
 using CacheManager.Core;
 using ShepherdsFramework.Core;
 using ShepherdsFramework.Core.Caching;
+using ShepherdsFramework.Core.Caching.CacheManager;
 using ShepherdsFramework.Core.DependencyManagement;
 using ShepherdsFramework.Core.Infrastructure;
 using ShepherdsFramework.Core.Logging;
@@ -38,10 +39,10 @@ namespace ShepherdsFramework.Framework
            //    .As<ICacheService>()
            //    .SingleInstance();
            //cachemanager注入
-           //var cache = CacheFactory.FromConfiguration<object>("myCache", "cacheManager");
+           
            //系统日志注入
            builder.RegisterType<Log4NetLoggerFactoryAdapter>().As<ILoggerFactoryAdapter>().SingleInstance();
-           //builder.RegisterInstance(cache);
+           builder.RegisterType<CacheManagerFactoryAdapter>().As<ICacheManagerFactoryAdapter>().SingleInstance();
            //所有的controllers 注入
            builder.RegisterControllers(typeFinder.GetAssemblies().ToArray());
 
