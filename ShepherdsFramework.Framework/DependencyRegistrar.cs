@@ -38,10 +38,10 @@ namespace ShepherdsFramework.Framework
            //    .As<ICacheService>()
            //    .SingleInstance();
            //cachemanager注入
-           var cache = CacheFactory.FromConfiguration<string>("myCache");
-           //日志注入
-           builder.RegisterType<Log4NetLogger>().As<ILogger>().InstancePerMatchingLifetimeScope();
-           builder.RegisterInstance(cache);
+           //var cache = CacheFactory.FromConfiguration<object>("myCache", "cacheManager");
+           //系统日志注入
+           builder.RegisterType<Log4NetLoggerFactoryAdapter>().As<ILoggerFactoryAdapter>().SingleInstance();
+           //builder.RegisterInstance(cache);
            //所有的controllers 注入
            builder.RegisterControllers(typeFinder.GetAssemblies().ToArray());
 

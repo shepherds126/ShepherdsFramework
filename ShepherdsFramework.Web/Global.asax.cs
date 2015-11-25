@@ -7,7 +7,11 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Autofac;
+using CacheManager.Core;
+using ShepherdsFramework.Core.DependencyManagement;
 using ShepherdsFramework.Core.Infrastructure;
+using ShepherdsFramework.Core.Logging;
+using ShepherdsFramework.Core.Logging.SystemLog;
 using ShepherdsFramework.Web.Controllers;
 using StackExchange.Profiling;
 
@@ -21,7 +25,7 @@ namespace ShepherdsFramework.Web
         protected void Application_Start()
         {
 
-
+            var cache = CacheFactory.FromConfiguration<object>("myCache", "cacheManager");
             InitDependencyContainer.InitContainer();
             AreaRegistration.RegisterAllAreas();
 
@@ -53,6 +57,25 @@ namespace ShepherdsFramework.Web
 
         protected void Application_Error(Object sender, EventArgs e)
         {
+            var exception = Server.GetLastError();
+            LogException(exception);
+        }
+
+        protected void LogException(Exception exc)
+        {
+            var logger = LoggerFactory.GetLogger();
+            if (exc == null)
+                return;
+            try
+            {
+                //log
+                
+                logger.Error(exc);
+            }
+            catch (Exception e)
+            {
+                logger.Error(e,"系统错误");
+            }
         }
     }
 }

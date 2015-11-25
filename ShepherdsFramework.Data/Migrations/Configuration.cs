@@ -1,5 +1,3 @@
-using ShepherdsFramework.Core.Domain.Customer;
-
 namespace ShepherdsFramework.Data.Migrations
 {
     using System;
@@ -28,24 +26,6 @@ namespace ShepherdsFramework.Data.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
-            Customer[] customersarr = new Customer[2];
-            customersarr[0] = new Customer()
-            {
-                Password = "123456",
-                Phone = "12345678911",
-                Username = "shepherds",
-                CreateTime = DateTime.Now
-            };
-            customersarr[1] = new Customer()
-            {
-                Password = "123456",
-                Phone = "13316070024",
-                Username = "liganggang",
-                CreateTime = DateTime.Now
-            };
-            context.Set<Customer>().AddOrUpdate(customersarr);
-            
         }
     }
 }

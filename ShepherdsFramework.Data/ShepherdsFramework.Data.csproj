@@ -57,17 +57,9 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="Mapping\Customer\CustomerMap.cs" />
     <Compile Include="Mapping\ShepherdsFrameworkEntityTypeConfiguration.cs" />
-    <Compile Include="Migrations\201508170242029_InitialMigration.cs" />
-    <Compile Include="Migrations\201508170242029_InitialMigration.Designer.cs">
-      <DependentUpon>201508170242029_InitialMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201508170309390_InitialMigration1.cs" />
-    <Compile Include="Migrations\201508170309390_InitialMigration1.Designer.cs">
-      <DependentUpon>201508170309390_InitialMigration1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201508170321360_InitialMigration2.cs" />
-    <Compile Include="Migrations\201508170321360_InitialMigration2.Designer.cs">
-      <DependentUpon>201508170321360_InitialMigration2.cs</DependentUpon>
+    <Compile Include="Migrations\201511090910041_Customer.cs" />
+    <Compile Include="Migrations\201511090910041_Customer.Designer.cs">
+      <DependentUpon>201511090910041_Customer.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,14 +78,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201508170242029_InitialMigration.resx">
-      <DependentUpon>201508170242029_InitialMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201508170309390_InitialMigration1.resx">
-      <DependentUpon>201508170309390_InitialMigration1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201508170321360_InitialMigration2.resx">
-      <DependentUpon>201508170321360_InitialMigration2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201511090910041_Customer.resx">
+      <DependentUpon>201511090910041_Customer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

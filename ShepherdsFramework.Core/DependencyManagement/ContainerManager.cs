@@ -11,7 +11,7 @@ namespace ShepherdsFramework.Core.DependencyManagement
     {
         private static IContainer _container;
 
-        public ContainerManager(IContainer container)
+        public static void  RegisterContainer(IContainer container)
         {
             _container = container;
         }

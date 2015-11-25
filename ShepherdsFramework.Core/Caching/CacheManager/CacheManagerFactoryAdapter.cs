@@ -30,6 +30,7 @@ namespace ShepherdsFramework.Core.Caching.CacheManager
             if (string.IsNullOrEmpty(configpath)) configpath = "~/Config/Cachemanager.config";
             FileInfo fileInfo = new FileInfo(WebUtility.GetPhysicalFilePath(configpath));
             if (!fileInfo.Exists) throw new ApplicationException(string.Format("Cachemanager的配置文件 {0} 没有找到", fileInfo.Name));
+            
             CacheManagerFactoryAdapter._isconfigLoads = true;
         }
     }

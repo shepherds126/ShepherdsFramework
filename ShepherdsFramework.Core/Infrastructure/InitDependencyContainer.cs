@@ -36,10 +36,11 @@ namespace ShepherdsFramework.Core.Infrastructure
             {
                 dr.Register(builder,typefinder);
             }
-
+            
             builder.Update(container);
-
+            //将Autofac容器中的实例注册到mvc自带的容器中
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            ContainerManager.RegisterContainer(container);
         }
     }
 }

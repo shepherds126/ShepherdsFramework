@@ -301,7 +301,8 @@ namespace ShepherdsFramework.Framework.Utilities.Captcha
             string imagekey = GetCacheKeyForImage(key);
             try
             {
-                byte[] data = (byte[]) cacheService.Get(imagekey);
+                //byte[] data = (byte[]) cacheService.Get(imagekey);
+                byte[] data = null;
                 if (data == null) return null;
                 MemoryStream msStream = new MemoryStream(data);
                 return msStream;
@@ -371,7 +372,7 @@ namespace ShepherdsFramework.Framework.Utilities.Captcha
                 key = GeneratePublishCacheKey(context, text);
                 string imagekey = GetCacheKeyForImage(key);
                 //缓存5分钟
-                cacheService.Add(imagekey,stream.ToArray(),new TimeSpan(0,5,0));
+                //cacheService.Add(imagekey,stream.ToArray(),new TimeSpan(0,5,0));
             }
 
             return apiImage;
@@ -449,7 +450,7 @@ namespace ShepherdsFramework.Framework.Utilities.Captcha
             string textkey = GetCacheKeyForText(key);
             if (PersistenceMode == VerificationCodePersistenceMode.Cache)
             {
-                cacheService.Add(textkey,text,new TimeSpan(0,0,timeoutseconds));
+                //cacheService.Add(textkey,text,new TimeSpan(0,0,timeoutseconds));
             }
             else
             {

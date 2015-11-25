@@ -32,7 +32,12 @@ namespace ShepherdsFramework.Service.Customers
         /// <param name="phoneoremail"></param>
         /// <returns></returns>
         Customer GetCustomerByEmailOrPhone(string phoneoremail);
-
+        /// <summary>
+        /// 添加用户
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
+        void InsertCustomer(Customer customer);
 
 
     }

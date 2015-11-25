@@ -87,9 +87,18 @@ namespace ShepherdsFramework.Service.Customers
             else if (ValidateHelper.IsEmail(emailorphone)) return query.FirstOrDefault(q => q.Email == emailorphone);
             return null;
         }
+        /// <summary>
+        /// 添加用户
+        /// </summary>
+        /// <param name="customer"></param>
+        public virtual void InsertCustomer(Customer customer)
+        {
+            if(customer== null) throw new ArgumentNullException("customer 为空");
+            _customerRepository.Insert(customer);
+        }
 
 
-        
+
 
 
     }
