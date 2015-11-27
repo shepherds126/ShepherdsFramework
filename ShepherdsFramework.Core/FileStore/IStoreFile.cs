@@ -14,22 +14,22 @@ namespace ShepherdsFramework.Core.FileStore
         /// <summary>
         /// 文件名
         /// </summary>
-        string Name { get; set; }
+        string Name { get;  }
         /// <summary>
         /// 文件扩展名
         /// </summary>
-        string Extension { get; set; }
+        string Extension { get;  }
         /// <summary>
         /// 文件大小
         /// </summary>
-        long Size { get; set; }
+        long Size { get;  }
         /// <summary>
         /// 文件的相对路径
         /// </summary>
-        string RelativePath { get; set; }
+        string RelativePath { get;  }
         /// <summary>
         /// 文件最后修改的时间
         /// </summary>
-        DateTime LastModified { get; set; }
+        DateTime LastModified { get; }
     }
 }
