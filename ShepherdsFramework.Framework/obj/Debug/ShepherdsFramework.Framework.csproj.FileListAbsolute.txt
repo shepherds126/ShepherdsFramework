@@ -59,3 +59,5 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framew
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\CacheManager.Core.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\CacheManager.SystemRuntimeCaching.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Framework\bin\Debug\log4net.xml
+E:\Git\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.csprojResolveAssemblyReference.cache
+E:\Git\ShepherdsFramework\ShepherdsFramework.Framework\obj\Debug\ShepherdsFramework.Framework.dll

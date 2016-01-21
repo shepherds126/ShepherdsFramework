@@ -30,3 +30,6 @@ D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\b
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\Enyim.Caching.xml
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\log4net.dll
 D:\website\深入理解C#\chapter01\ShepherdsFramework\ShepherdsFramework.Core\bin\Debug\log4net.xml
+E:\Git\ShepherdsFramework\ShepherdsFramework.Core\obj\Debug\ShepherdsFramework.Core.csprojResolveAssemblyReference.cache
+E:\Git\ShepherdsFramework\ShepherdsFramework.Core\obj\Debug\ShepherdsFramework.Core.dll
+E:\Git\ShepherdsFramework\ShepherdsFramework.Core\obj\Debug\ShepherdsFramework.Core.pdb
